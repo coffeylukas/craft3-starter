@@ -26,6 +26,9 @@ return [
         // Whether to save the project config out to config/project.yaml
         // (see https://docs.craftcms.com/v3/project-config.html)
         'useProjectConfigFile' => false,
+
+        // Error Template Folder
+        'errorTemplatePrefix' => '_errors/'
     ],
 
     // Dev environment settings
@@ -38,11 +41,17 @@ return [
     'staging' => [
         // Set this to `false` to prevent administrative changes from being made on staging
         'allowAdminChanges' => true,
+
+        // Staging URL
+        'baseUrl' => 'staging.craft3start.com'
     ],
 
     // Production environment settings
     'production' => [
         // Set this to `false` to prevent administrative changes from being made on production
         'allowAdminChanges' => true,
+        
+        // Staging URL
+        'baseUrl' => 'staging.craft3start.com'
     ],
 ];
