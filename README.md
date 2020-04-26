@@ -21,6 +21,9 @@ At this point, if all went well, you should be able to acces the site. Once you 
 
 At this point you're all set!
 
+## Using This Repo As A Template
+If you want to see how to use this repo as a template without manually copy/pasting files, check out this article: [Having a git repo that is a template for new projects](https://medium.com/@smrgrace/having-a-git-repo-that-is-a-template-for-new-projects-148079b7f178)
+
 ## Contribution
 Anyone is welcome to add some helpful Craft plugins or fix bugs they encounter, just make a PR!
 

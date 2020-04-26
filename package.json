@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/coffeylukas/craft3-starter#readme",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
     "autoprefixer": "^9.7.6",
     "babel-loader": "^8.1.0",
     "browser-sync": "^2.26.7",
